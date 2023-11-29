@@ -11,7 +11,7 @@
 body{
     font-size: 1.6rem;
     height: 100vh;
-    background: -webkit-linear-gradient(#dddde2, #3fdaf9);
+    background: -webkit-linear-gradient(#dddde2, #228ea3);
 }
 
 .fundo{
@@ -117,10 +117,18 @@ main{
     cursor: pointer;
     
     transition: .2s;
-
-    
-    
-
+}
+.primeiracor:not(.click),
+.segundacor:not(.click),
+.terceiracor:not(.click),
+.quartacor:not(.click){
+     transition: .3s;
+}
+.primeiracor:not(.light),
+.segundacor:not(.light),
+.terceiracor:not(.light),
+.quartacor:not(.light){
+     transition: .3s;
 }
 .primeiracor{
     background-color: blue;
