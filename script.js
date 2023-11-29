@@ -8,6 +8,7 @@ const imagem = document.querySelector('.imagem')
 const main = document.querySelector('main')
 const soundClick =  new Audio('./sounds/button.wav')
 const fase =  new Audio('./sounds/fase.mp3')
+const buttonImagem = document.querySelector('.buttonimg2')
 
 let capturando = []
 
@@ -29,6 +30,7 @@ function jogo() {
     start.addEventListener('click', () => {
     soundClick.play()
       sequencia++;
+      buttonImagem.classList.add('fundo')
       console.log(sequencia);
 
       if (sequencia === 0) {
@@ -320,11 +322,13 @@ function jogo() {
             segundapagina1()
             setTimeout(segundapagina2, 1500)
             document.querySelector('.buttonImg').textContent = `INICIAR RODADA [${sequencia + 1}]`
+            buttonImagem.classList.remove('fundo')
 
             
           } else {
             console.log('melhorou');
             document.querySelector('.buttonImg').textContent = "Tente Novamente "
+            buttonImagem.classList.remove('fundo')
             sequencia--
           }
     
@@ -416,7 +420,7 @@ function shuffleArray(array) {
 function segundapagina1(){
     imagem.classList.remove('fundo')
     main.classList.add('fundo2')
-    fase.playbackRate = 1.3
+    fase.playbackRate = 1.5
     fase.play()
 
 }
