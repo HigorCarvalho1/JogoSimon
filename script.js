@@ -439,39 +439,39 @@ function fase33(){
 primeiracor.addEventListener('click', ()=>{
     primeiracor.classList.add('click')
     soundClick.play()
-    // function removeclick(){
-    //     primeiracor.classList.remove('click')
+    function removeclick(){
+        primeiracor.classList.remove('click')
 
-    // }
-    // setTimeout(removeclick, 1500)
+    }
+    setTimeout(removeclick, 500)
 
 })
 segundacor.addEventListener('click', ()=>{
     segundacor.classList.add('click')
     soundClick.play()
-    // function removeclick(){
-    //     segundacor.classList.remove('click')
+    function removeclick(){
+        segundacor.classList.remove('click')
 
-    // }
-    // setTimeout(removeclick, 1500)
+    }
+    setTimeout(removeclick, 500)
 })
 terceiracor.addEventListener('click', ()=>{
     terceiracor.classList.add('click')
     soundClick.play()
-    // function removeclick(){
-    //     terceiracor.classList.remove('click')
+    function removeclick(){
+        terceiracor.classList.remove('click')
 
-    // }
-    // setTimeout(removeclick, 1500)
+    }
+    setTimeout(removeclick, 500)
 })
 quartacor.addEventListener('click', ()=>{
     quartacor.classList.add('click')
     soundClick.play()
-    // function removeclick(){
-    //     quartacor.classList.remove('click')
+    function removeclick(){
+        quartacor.classList.remove('click')
 
-    // }
-    // setTimeout(removeclick, 1500)
+    }
+    setTimeout(removeclick, 500)
 })
 function returnColor(){
     primeiracor.classList.remove('click')

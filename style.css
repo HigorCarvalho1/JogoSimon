@@ -122,9 +122,10 @@ main{
     width: 50%;
     border: 3px solid black;
     opacity: .7;
-    transition: .5s;
     cursor: pointer;
-    filter: saturate(-100%)
+    
+    transition: .2s;
+
     
     
 
