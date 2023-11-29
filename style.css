@@ -11,7 +11,7 @@
 body{
     font-size: 1.6rem;
     height: 100vh;
-    background:#dddde2 ;
+    background:#3fdaf9 ;
 }
 
 .fundo{
@@ -263,6 +263,20 @@ main.fundo2{
             width: 35%;
         }
     
+    }
+    @keyframes blink {
+        from {
+            border-color: #1E56A0;
+        }
+        to {
+            border-color: transparent;
+        }
+    }
+    .button img:hover{
+        transform: scale(1.0);
+    }
+    .buttonImg{
+        color: black;
     }
 }
 

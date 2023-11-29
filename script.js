@@ -361,7 +361,7 @@ function fase33(){
 }
 primeiracor.addEventListener('click', ()=>{
     primeiracor.classList.add('click')
-    soundClick.play()
+    
     function removeclick(){
         primeiracor.classList.remove('click')
 
@@ -371,7 +371,7 @@ primeiracor.addEventListener('click', ()=>{
 })
 segundacor.addEventListener('click', ()=>{
     segundacor.classList.add('click')
-    soundClick.play()
+    
     function removeclick(){
         segundacor.classList.remove('click')
 
@@ -380,7 +380,7 @@ segundacor.addEventListener('click', ()=>{
 })
 terceiracor.addEventListener('click', ()=>{
     terceiracor.classList.add('click')
-    soundClick.play()
+    
     function removeclick(){
         terceiracor.classList.remove('click')
 
@@ -389,7 +389,7 @@ terceiracor.addEventListener('click', ()=>{
 })
 quartacor.addEventListener('click', ()=>{
     quartacor.classList.add('click')
-    soundClick.play()
+    
     function removeclick(){
         quartacor.classList.remove('click')
 
