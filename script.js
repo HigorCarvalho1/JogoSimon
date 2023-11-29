@@ -30,6 +30,12 @@ function jogo() {
     soundClick.play()
       sequencia++;
       console.log(sequencia);
+
+      if (sequencia === 0) {
+        document.querySelector('.nome').textContent = `SIMON`
+        document.querySelector('.nome').style.animation = "typewriter 1.5s steps(13) infinite alternate, blink 800ms steps(13) infinite normal"
+        document.querySelector('.buttonImg').textContent = `INICIAR RODADA [${sequencia + 1}] `
+      }
   
       if (sequencia === 1) {
         setTimeout(fase0,1000);
@@ -282,10 +288,14 @@ function jogo() {
         caixas.addEventListener('click', clickHandler);
       }
       
-      if (sequencia > 11) {
-        document.querySelector('.buttonImg').textContent = "Parabéns Você Finalizou o Jogo"
-        sequencia = 0
+      if (sequencia === 12) {
+        document.querySelector('.nome').textContent = `Parabéns Você finalizou o Jogo`
+        document.querySelector('.nome').style.animation = "none"
+        document.querySelector('.buttonImg').textContent = `Começar novamente `
+        sequencia = -1
+        
       }
+      
     })
   }
   
@@ -311,7 +321,7 @@ function jogo() {
             fase.playbackRate = 1.3
             fase.play()
             setTimeout(segundapagina, 1500)
-            document.querySelector('.buttonImg').textContent = "INICIAR RODADA "
+            document.querySelector('.buttonImg').textContent = `INICIAR RODADA [${sequencia + 1}]`
 
             
           } else {
