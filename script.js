@@ -33,7 +33,7 @@ function jogo() {
   
       if (sequencia === 1) {
         setTimeout(fase0,1000);
-        setTimeout(fase00, 1300);
+        setTimeout(fase00, 1500);
         listamaquina.push(image[0].dataset.action);
         
   

@@ -11,7 +11,7 @@
 body{
     font-size: 1.6rem;
     height: 100vh;
-    background:#3fdaf9 ;
+    background:linear-gradient(#dddde2, #3fdaf9) ;
 }
 
 .fundo{
