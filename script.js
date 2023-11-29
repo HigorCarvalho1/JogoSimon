@@ -385,7 +385,7 @@ function jogo() {
             returnColor()
             imagem.classList.remove('fundo')
             main.classList.add('fundo2')
-            fase.playbackRate = 1.7
+            fase.playbackRate = 1.3
             fase.play()
             setTimeout(segundapagina, 1500)
             document.querySelector('.buttonImg').textContent = "INICIAR RODADA "

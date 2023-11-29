@@ -26,12 +26,16 @@ body{
     align-items: center;
     
 }
-.light{
+
+.primeiracor.light,
+.segundacor.light,
+.terceiracor.light,
+.quartacor.light{
     position: relative;
     z-index: 2;
-    opacity: 1;
     transform: scale(1.1);
-    filter: contrast(200%);
+    opacity: 1.8;
+    
     
 }
 .pagina h1{
@@ -79,7 +83,7 @@ body{
         border-color: transparent;
     }
 }
-.primeiracor:hover,
+/* .primeiracor:hover,
 .segundacor:hover,
 .terceiracor:hover,
 .quartacor:hover{
@@ -87,7 +91,7 @@ body{
     z-index: 2;
     opacity: 1;
     
-}
+} */
 
 main{
     height: 40rem;
@@ -117,9 +121,10 @@ main{
 .quartacor{
     width: 50%;
     border: 3px solid black;
-    opacity: .6;
+    opacity: .7;
     transition: .5s;
     cursor: pointer;
+    filter: saturate(-100%)
     
     
 
@@ -249,15 +254,7 @@ main.fundo2{
 
 }
 @media ((max-width: 1200px)){
-    @keyframes typewriter {
-        from {
-            width: 0%;
-        }
-        to {
-            width: 30%;
-        }
     
-    }
 }
 
 
