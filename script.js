@@ -32,8 +32,8 @@ function jogo() {
       console.log(sequencia);
   
       if (sequencia === 1) {
-        fase0();
-        setTimeout(fase00, 800);
+        setTimeout(fase0,300);
+        setTimeout(fase00, 600);
         listamaquina.push(image[0].dataset.action);
         
   
@@ -41,9 +41,9 @@ function jogo() {
       }
   
       if (sequencia === 2) {
-        fase0();
-        setTimeout(fase00, 300);
-        setTimeout(fase1, 600);
+        setTimeout(fase0,300);
+        setTimeout(fase00, 600);
+        setTimeout(fase1, 900);
         setTimeout(fase11, 1200);
         listamaquina.push(image[0].dataset.action);
         listamaquina.push(image[1].dataset.action);
@@ -51,12 +51,12 @@ function jogo() {
         caixas.addEventListener('click', clickHandler);
       }
       if (sequencia === 3) {
-        fase0();
-        setTimeout(fase00, 300);
-        setTimeout(fase1, 600);
-        setTimeout(fase11, 900);
-        setTimeout(fase3, 1200)
-        setTimeout(fase33, 1500)
+        setTimeout(fase0,300);
+        setTimeout(fase00, 600);
+        setTimeout(fase1, 900);
+        setTimeout(fase11, 1200);
+        setTimeout(fase3, 1500)
+        setTimeout(fase33, 1800)
         listamaquina.push(image[0].dataset.action);
         listamaquina.push(image[1].dataset.action);
         listamaquina.push(image[3].dataset.action);
@@ -64,14 +64,14 @@ function jogo() {
         caixas.addEventListener('click', clickHandler);
       }
       if (sequencia === 4) {
-        fase0();
-        setTimeout(fase00, 300);
-        setTimeout(fase1, 600);
-        setTimeout(fase11, 900);
-        setTimeout(fase3, 1200)
-        setTimeout(fase33, 1500)
-        setTimeout(fase1, 1800)
-        setTimeout(fase11, 2100);
+        setTimeout(fase0,300);
+        setTimeout(fase00, 600);
+        setTimeout(fase1, 900);
+        setTimeout(fase11, 1200);
+        setTimeout(fase3, 1500)
+        setTimeout(fase33, 1800)
+        setTimeout(fase1, 2100)
+        setTimeout(fase11, 2400);
         listamaquina.push(image[0].dataset.action);
         listamaquina.push(image[1].dataset.action);
         listamaquina.push(image[3].dataset.action);
@@ -80,16 +80,16 @@ function jogo() {
         caixas.addEventListener('click', clickHandler);
       }
       if (sequencia === 5) {
-        fase0();
-        setTimeout(fase00, 300);
-        setTimeout(fase1, 600);
-        setTimeout(fase11, 900);
-        setTimeout(fase3, 1200)
-        setTimeout(fase33, 1500)
-        setTimeout(fase1, 1800)
-        setTimeout(fase11, 2100);
-        setTimeout(fase2,2400 )
-        setTimeout(fase22, 2700)
+        setTimeout(fase0,300);
+        setTimeout(fase00, 600);
+        setTimeout(fase1, 900);
+        setTimeout(fase11, 1200);
+        setTimeout(fase3, 1500)
+        setTimeout(fase33, 1800)
+        setTimeout(fase1, 2100)
+        setTimeout(fase11, 2400);
+        setTimeout(fase2,2700 )
+        setTimeout(fase22, 3000)
         listamaquina.push(image[0].dataset.action);
         listamaquina.push(image[1].dataset.action);
         listamaquina.push(image[3].dataset.action);
@@ -100,18 +100,18 @@ function jogo() {
       }
     
       if (sequencia === 6) {
-        fase0();
-        setTimeout(fase00, 300);
-        setTimeout(fase1, 600);
-        setTimeout(fase11, 900);
-        setTimeout(fase3, 1200)
-        setTimeout(fase33, 1500)
-        setTimeout(fase1, 1800)
-        setTimeout(fase11, 2100);
-        setTimeout(fase2,2400 )
-        setTimeout(fase22, 2700)
-        setTimeout(fase0,3000 )
-        setTimeout(fase00, 3300)
+        setTimeout(fase0,300);
+        setTimeout(fase00, 600);
+        setTimeout(fase1, 900);
+        setTimeout(fase11, 1200);
+        setTimeout(fase3, 1500)
+        setTimeout(fase33, 1800)
+        setTimeout(fase1, 2100)
+        setTimeout(fase11, 2400);
+        setTimeout(fase2,2700 )
+        setTimeout(fase22, 3000)
+        setTimeout(fase0,3300 )
+        setTimeout(fase00, 3600)
         listamaquina.push(image[0].dataset.action);
         listamaquina.push(image[1].dataset.action);
         listamaquina.push(image[3].dataset.action);
@@ -122,20 +122,20 @@ function jogo() {
         caixas.addEventListener('click', clickHandler);
       }
       if (sequencia === 7) {
-        fase0();
-        setTimeout(fase00, 300);
-        setTimeout(fase1, 600);
-        setTimeout(fase11, 900);
-        setTimeout(fase3, 1200)
-        setTimeout(fase33, 1500)
-        setTimeout(fase1, 1800)
-        setTimeout(fase11, 2100);
-        setTimeout(fase2,2400 )
-        setTimeout(fase22, 2700)
-        setTimeout(fase0,3000 )
-        setTimeout(fase00, 3300)
-        setTimeout(fase0,3600 )
-        setTimeout(fase00, 3900)
+        setTimeout(fase0,300);
+        setTimeout(fase00, 600);
+        setTimeout(fase1, 900);
+        setTimeout(fase11, 1200);
+        setTimeout(fase3, 1500)
+        setTimeout(fase33, 1800)
+        setTimeout(fase1, 2100)
+        setTimeout(fase11, 2400);
+        setTimeout(fase2,2700 )
+        setTimeout(fase22, 3000)
+        setTimeout(fase0,3300 )
+        setTimeout(fase00, 3600)
+        setTimeout(fase0,3900 )
+        setTimeout(fase00, 4200)
         listamaquina.push(image[0].dataset.action);
         listamaquina.push(image[1].dataset.action);
         listamaquina.push(image[3].dataset.action);
@@ -147,22 +147,22 @@ function jogo() {
         caixas.addEventListener('click', clickHandler);
       }
       if (sequencia === 8) {
-        fase0();
-        setTimeout(fase00, 300);
-        setTimeout(fase1, 600);
-        setTimeout(fase11, 900);
-        setTimeout(fase3, 1200)
-        setTimeout(fase33, 1500)
-        setTimeout(fase1, 1800)
-        setTimeout(fase11, 2100);
-        setTimeout(fase2,2400 )
-        setTimeout(fase22, 2700)
-        setTimeout(fase0,3000 )
-        setTimeout(fase00, 3300)
-        setTimeout(fase0,3600 )
-        setTimeout(fase00, 3900)
-        setTimeout(fase3,4200 )
-        setTimeout(fase33, 4500)
+        setTimeout(fase0,300);
+        setTimeout(fase00, 600);
+        setTimeout(fase1, 900);
+        setTimeout(fase11, 1200);
+        setTimeout(fase3, 1500)
+        setTimeout(fase33, 1800)
+        setTimeout(fase1, 2100)
+        setTimeout(fase11, 2400);
+        setTimeout(fase2,2700 )
+        setTimeout(fase22, 3000)
+        setTimeout(fase0,3300 )
+        setTimeout(fase00, 3600)
+        setTimeout(fase0,3900 )
+        setTimeout(fase00, 4200)
+        setTimeout(fase3,4500 )
+        setTimeout(fase33, 4800)
         listamaquina.push(image[0].dataset.action);
         listamaquina.push(image[1].dataset.action);
         listamaquina.push(image[3].dataset.action);
@@ -175,24 +175,24 @@ function jogo() {
         caixas.addEventListener('click', clickHandler);
       }
       if (sequencia === 8) {
-        fase0();
-        setTimeout(fase00, 300);
-        setTimeout(fase1, 600);
-        setTimeout(fase11, 900);
-        setTimeout(fase3, 1200)
-        setTimeout(fase33, 1500)
-        setTimeout(fase1, 1800)
-        setTimeout(fase11, 2100);
-        setTimeout(fase2,2400 )
-        setTimeout(fase22, 2700)
-        setTimeout(fase0,3000 )
-        setTimeout(fase00, 3300)
-        setTimeout(fase0,3600 )
-        setTimeout(fase00, 3900)
-        setTimeout(fase3,4200 )
-        setTimeout(fase33, 4500)
-        setTimeout(fase2,4800 )
-        setTimeout(fase22, 5100)
+        setTimeout(fase0,300);
+        setTimeout(fase00, 600);
+        setTimeout(fase1, 900);
+        setTimeout(fase11, 1200);
+        setTimeout(fase3, 1500)
+        setTimeout(fase33, 1800)
+        setTimeout(fase1, 2100)
+        setTimeout(fase11, 2400);
+        setTimeout(fase2,2700 )
+        setTimeout(fase22, 3000)
+        setTimeout(fase0,3300 )
+        setTimeout(fase00, 3600)
+        setTimeout(fase0,3900 )
+        setTimeout(fase00, 4200)
+        setTimeout(fase3,4500 )
+        setTimeout(fase33, 4800)
+        setTimeout(fase2,5100 )
+        setTimeout(fase22, 5400)
         listamaquina.push(image[0].dataset.action);
         listamaquina.push(image[1].dataset.action);
         listamaquina.push(image[3].dataset.action);
@@ -206,26 +206,26 @@ function jogo() {
         caixas.addEventListener('click', clickHandler);
       }
       if (sequencia === 9) {
-        fase0();
-        setTimeout(fase00, 300);
-        setTimeout(fase1, 600);
-        setTimeout(fase11, 900);
-        setTimeout(fase3, 1200)
-        setTimeout(fase33, 1500)
-        setTimeout(fase1, 1800)
-        setTimeout(fase11, 2100);
-        setTimeout(fase2,2400 )
-        setTimeout(fase22, 2700)
-        setTimeout(fase0,3000 )
-        setTimeout(fase00, 3300)
-        setTimeout(fase0,3600 )
-        setTimeout(fase00, 3900)
-        setTimeout(fase3,4200 )
-        setTimeout(fase33, 4500)
-        setTimeout(fase2,4800 )
-        setTimeout(fase22, 5100)
-        setTimeout(fase2,5400 )
-        setTimeout(fase22, 5700)
+        setTimeout(fase0,300);
+        setTimeout(fase00, 600);
+        setTimeout(fase1, 900);
+        setTimeout(fase11, 1200);
+        setTimeout(fase3, 1500)
+        setTimeout(fase33, 1800)
+        setTimeout(fase1, 2100)
+        setTimeout(fase11, 2400);
+        setTimeout(fase2,2700 )
+        setTimeout(fase22, 3000)
+        setTimeout(fase0,3300 )
+        setTimeout(fase00, 3600)
+        setTimeout(fase0,3900 )
+        setTimeout(fase00, 4200)
+        setTimeout(fase3,4500 )
+        setTimeout(fase33, 4800)
+        setTimeout(fase2,5100 )
+        setTimeout(fase22, 5400)
+        setTimeout(fase2,5700 )
+        setTimeout(fase22, 6000)
         listamaquina.push(image[0].dataset.action);
         listamaquina.push(image[1].dataset.action);
         listamaquina.push(image[3].dataset.action);
@@ -240,28 +240,29 @@ function jogo() {
         caixas.addEventListener('click', clickHandler);
       }
       if (sequencia === 10) {
-        fase0();
-        setTimeout(fase00, 300);
-        setTimeout(fase1, 600);
-        setTimeout(fase11, 900);
-        setTimeout(fase3, 1200)
-        setTimeout(fase33, 1500)
-        setTimeout(fase1, 1800)
-        setTimeout(fase11, 2100);
-        setTimeout(fase2,2400 )
-        setTimeout(fase22, 2700)
-        setTimeout(fase0,3000 )
-        setTimeout(fase00, 3300)
-        setTimeout(fase0,3600 )
-        setTimeout(fase00, 3900)
-        setTimeout(fase3,4200 )
-        setTimeout(fase33, 4500)
-        setTimeout(fase2,4800 )
-        setTimeout(fase22, 5100)
-        setTimeout(fase2,5400 )
-        setTimeout(fase22, 5700)
-        setTimeout(fase1,6000 )
-        setTimeout(fase11, 6300)
+        setTimeout(fase0,300);
+        setTimeout(fase00, 600);
+        setTimeout(fase1, 900);
+        setTimeout(fase11, 1200);
+        setTimeout(fase3, 1500)
+        setTimeout(fase33, 1800)
+        setTimeout(fase1, 2100)
+        setTimeout(fase11, 2400);
+        setTimeout(fase2,2700 )
+        setTimeout(fase22, 3000)
+        setTimeout(fase0,3300 )
+        setTimeout(fase00, 3600)
+        setTimeout(fase0,3900 )
+        setTimeout(fase00, 4200)
+        setTimeout(fase3,4500 )
+        setTimeout(fase33, 4800)
+        setTimeout(fase2,5100 )
+        setTimeout(fase22, 5400)
+        setTimeout(fase2,5700 )
+        setTimeout(fase22, 6000)
+        setTimeout(fase1,6300 )
+        setTimeout(fase11, 6600)
+       
         listamaquina.push(image[0].dataset.action);
         listamaquina.push(image[1].dataset.action);
         listamaquina.push(image[3].dataset.action);
@@ -277,30 +278,30 @@ function jogo() {
         caixas.addEventListener('click', clickHandler);
       }
       if (sequencia === 11) {
-        fase0();
-        setTimeout(fase00, 300);
-        setTimeout(fase1, 600);
-        setTimeout(fase11, 900);
-        setTimeout(fase3, 1200)
-        setTimeout(fase33, 1500)
-        setTimeout(fase1, 1800)
-        setTimeout(fase11, 2100);
-        setTimeout(fase2,2400 )
-        setTimeout(fase22, 2700)
-        setTimeout(fase0,3000 )
-        setTimeout(fase00, 3300)
-        setTimeout(fase0,3600 )
-        setTimeout(fase00, 3900)
-        setTimeout(fase3,4200 )
-        setTimeout(fase33, 4500)
-        setTimeout(fase2,4800 )
-        setTimeout(fase22, 5100)
-        setTimeout(fase2,5400 )
-        setTimeout(fase22, 5700)
-        setTimeout(fase1,6000 )
-        setTimeout(fase11, 6300)
-        setTimeout(fase0, 6600)
-        setTimeout(fase00, 6900)
+        setTimeout(fase0,300);
+        setTimeout(fase00, 600);
+        setTimeout(fase1, 900);
+        setTimeout(fase11, 1200);
+        setTimeout(fase3, 1500)
+        setTimeout(fase33, 1800)
+        setTimeout(fase1, 2100)
+        setTimeout(fase11, 2400);
+        setTimeout(fase2,2700 )
+        setTimeout(fase22, 3000)
+        setTimeout(fase0,3300 )
+        setTimeout(fase00, 3600)
+        setTimeout(fase0,3900 )
+        setTimeout(fase00, 4200)
+        setTimeout(fase3,4500 )
+        setTimeout(fase33, 4800)
+        setTimeout(fase2,5100 )
+        setTimeout(fase22, 5400)
+        setTimeout(fase2,5700 )
+        setTimeout(fase22, 6000)
+        setTimeout(fase1,6300 )
+        setTimeout(fase11, 6600)
+        setTimeout(fase0, 6900)
+        setTimeout(fase00, 7200)
         listamaquina.push(image[0].dataset.action);
         listamaquina.push(image[1].dataset.action);
         listamaquina.push(image[3].dataset.action);
@@ -317,32 +318,32 @@ function jogo() {
         caixas.addEventListener('click', clickHandler);
       }
       if (sequencia === 11) {
-        fase0();
-        setTimeout(fase00, 300);
-        setTimeout(fase1, 600);
-        setTimeout(fase11, 900);
-        setTimeout(fase3, 1200)
-        setTimeout(fase33, 1500)
-        setTimeout(fase1, 1800)
-        setTimeout(fase11, 2100);
-        setTimeout(fase2,2400 )
-        setTimeout(fase22, 2700)
-        setTimeout(fase0,3000 )
-        setTimeout(fase00, 3300)
-        setTimeout(fase0,3600 )
-        setTimeout(fase00, 3900)
-        setTimeout(fase3,4200 )
-        setTimeout(fase33, 4500)
-        setTimeout(fase2,4800 )
-        setTimeout(fase22, 5100)
-        setTimeout(fase2,5400 )
-        setTimeout(fase22, 5700)
-        setTimeout(fase1,6000 )
-        setTimeout(fase11, 6300)
-        setTimeout(fase0, 6600)
-        setTimeout(fase00, 6900)
-        setTimeout(fase0, 7200)
-        setTimeout(fase00, 7500)
+        setTimeout(fase0,300);
+        setTimeout(fase00, 600);
+        setTimeout(fase1, 900);
+        setTimeout(fase11, 1200);
+        setTimeout(fase3, 1500)
+        setTimeout(fase33, 1800)
+        setTimeout(fase1, 2100)
+        setTimeout(fase11, 2400);
+        setTimeout(fase2,2700 )
+        setTimeout(fase22, 3000)
+        setTimeout(fase0,3300 )
+        setTimeout(fase00, 3600)
+        setTimeout(fase0,3900 )
+        setTimeout(fase00, 4200)
+        setTimeout(fase3,4500 )
+        setTimeout(fase33, 4800)
+        setTimeout(fase2,5100 )
+        setTimeout(fase22, 5400)
+        setTimeout(fase2,5700 )
+        setTimeout(fase22, 6000)
+        setTimeout(fase1,6300 )
+        setTimeout(fase11, 6600)
+        setTimeout(fase0, 6900)
+        setTimeout(fase00, 7200)
+        setTimeout(fase0, 7500)
+        setTimeout(fase00, 7800)
         listamaquina.push(image[0].dataset.action);
         listamaquina.push(image[1].dataset.action);
         listamaquina.push(image[3].dataset.action);
@@ -443,7 +444,7 @@ primeiracor.addEventListener('click', ()=>{
         primeiracor.classList.remove('click')
 
     }
-    setTimeout(removeclick, 500)
+    setTimeout(removeclick, 700)
 
 })
 segundacor.addEventListener('click', ()=>{
@@ -453,7 +454,7 @@ segundacor.addEventListener('click', ()=>{
         segundacor.classList.remove('click')
 
     }
-    setTimeout(removeclick, 500)
+    setTimeout(removeclick, 700)
 })
 terceiracor.addEventListener('click', ()=>{
     terceiracor.classList.add('click')
@@ -462,7 +463,7 @@ terceiracor.addEventListener('click', ()=>{
         terceiracor.classList.remove('click')
 
     }
-    setTimeout(removeclick, 500)
+    setTimeout(removeclick, 700)
 })
 quartacor.addEventListener('click', ()=>{
     quartacor.classList.add('click')
@@ -471,7 +472,7 @@ quartacor.addEventListener('click', ()=>{
         quartacor.classList.remove('click')
 
     }
-    setTimeout(removeclick, 500)
+    setTimeout(removeclick, 700)
 })
 function returnColor(){
     primeiracor.classList.remove('click')
