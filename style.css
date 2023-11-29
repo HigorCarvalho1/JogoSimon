@@ -163,6 +163,10 @@ main .caixabutton{
     background: transparent;
 }
 .button{
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
     background: none;
     border: none;
     font-size: 1.5rem;
@@ -185,6 +189,7 @@ main .caixabutton{
     transform: scale(1.1);
 }
 .buttonImg{
+    line-height: 0;
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: bold;
@@ -277,6 +282,10 @@ main.fundo2{
     }
     .buttonImg{
         color: black;
+    }
+    .pagina h1{
+        width: 17rem;
+        overflow: auto;
     }
 }
 

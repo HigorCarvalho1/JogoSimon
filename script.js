@@ -8,8 +8,8 @@ const imagem = document.querySelector('.imagem')
 const main = document.querySelector('main')
 
 const soundClick =  new Audio('./sounds/button.wav')
-const fase =  new Audio('./sounds/fase.mp3')
-fase.playbackRate = 1.5
+const fase = new Audio('./sounds/fase.mp3')
+
 
 const buttonImagem = document.querySelector('.buttonimg2')
 
@@ -30,7 +30,7 @@ jogo()
 
 function jogo() {
     shuffleArray(image)
-    buttonImagem.addEventListener('click', () => {
+    start.addEventListener('click', () => {
     soundClick.play()
       sequencia++;
       buttonImagem.classList.add('fundo')
