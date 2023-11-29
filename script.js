@@ -6,8 +6,11 @@ const caixas = document.querySelector('.caixas')
 const start = document.querySelector('.button')
 const imagem = document.querySelector('.imagem')
 const main = document.querySelector('main')
+
 const soundClick =  new Audio('./sounds/button.wav')
 const fase =  new Audio('./sounds/fase.mp3')
+fase.playbackRate = 1.5
+
 const buttonImagem = document.querySelector('.buttonimg2')
 
 let capturando = []
@@ -27,7 +30,7 @@ jogo()
 
 function jogo() {
     shuffleArray(image)
-    start.addEventListener('click', () => {
+    buttonImagem.addEventListener('click', () => {
     soundClick.play()
       sequencia++;
       buttonImagem.classList.add('fundo')
@@ -432,7 +435,7 @@ function shuffleArray(array) {
 function segundapagina1(){
     imagem.classList.remove('fundo')
     main.classList.add('fundo2')
-    fase.playbackRate = 1.5
+    
     fase.play()
 
 }
