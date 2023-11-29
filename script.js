@@ -315,12 +315,8 @@ function jogo() {
             //every é um elemento que percorre cada item de um array 
           ) {
             console.log('maravilhoso');
-            returnColor()
-            imagem.classList.remove('fundo')
-            main.classList.add('fundo2')
-            fase.playbackRate = 1.3
-            fase.play()
-            setTimeout(segundapagina, 1500)
+            segundapagina1()
+            setTimeout(segundapagina2, 1500)
             document.querySelector('.buttonImg').textContent = `INICIAR RODADA [${sequencia + 1}]`
 
             
@@ -406,12 +402,7 @@ quartacor.addEventListener('click', ()=>{
     }
     setTimeout(removeclick, 700)
 })
-function returnColor(){
-    primeiracor.classList.remove('click')
-    quartacor.classList.remove('click')
-    terceiracor.classList.remove('click')
-    segundacor.classList.remove('click')
-}
+
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -421,7 +412,14 @@ function shuffleArray(array) {
     
     }
 }
-function segundapagina(){
+function segundapagina1(){
+    imagem.classList.remove('fundo')
+    main.classList.add('fundo2')
+    fase.playbackRate = 1.3
+    fase.play()
+
+}
+function segundapagina2(){
     imagem.classList.add('fundo')
     main.classList.remove('fundo2')
 }
