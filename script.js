@@ -30,7 +30,7 @@ jogo()
 
 function jogo() {
     shuffleArray(image)
-    start.addEventListener('click', () => {
+    buttonImagem.addEventListener('click', () => {
     soundClick.play()
       sequencia++;
       buttonImagem.classList.add('fundo')
