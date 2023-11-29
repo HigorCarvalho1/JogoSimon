@@ -40,6 +40,7 @@ function jogo() {
         document.querySelector('.nome').textContent = `SIMON`
         document.querySelector('.nome').style.animation = "typewriter 1.5s steps(13) infinite alternate, blink 800ms steps(13) infinite normal"
         document.querySelector('.buttonImg').textContent = `INICIAR RODADA [${sequencia + 1}] `
+        buttonImagem.classList.remove('fundo')
         
         caixas.addEventListener('click', clickHandler);
       }
@@ -311,6 +312,7 @@ function jogo() {
         document.querySelector('.nome').textContent = `Parabéns Você finalizou o Jogo`
         document.querySelector('.nome').style.animation = "none"
         document.querySelector('.buttonImg').textContent = `Começar novamente `
+        buttonImagem.classList.remove('fundo')
         sequencia = -1
         
       }
