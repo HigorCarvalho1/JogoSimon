@@ -45,6 +45,7 @@ function jogo() {
         setTimeout(fase0,1000);
         setTimeout(fase00, 1500);
         listamaquina.push(image[0].dataset.action);
+        document.querySelector('.buttonImg').textContent = `Rodada [1] `
         
   
         caixas.addEventListener('click', clickHandler);
@@ -57,6 +58,7 @@ function jogo() {
         setTimeout(fase11, 1900);
         listamaquina.push(image[0].dataset.action);
         listamaquina.push(image[1].dataset.action);
+        document.querySelector('.buttonImg').textContent = `Rodada [2] `
   
         caixas.addEventListener('click', clickHandler);
       }
@@ -70,6 +72,7 @@ function jogo() {
         listamaquina.push(image[0].dataset.action);
         listamaquina.push(image[1].dataset.action);
         listamaquina.push(image[3].dataset.action);
+        document.querySelector('.buttonImg').textContent = `Rodada [3] `
   
         caixas.addEventListener('click', clickHandler);
       }
@@ -86,6 +89,7 @@ function jogo() {
         listamaquina.push(image[1].dataset.action);
         listamaquina.push(image[3].dataset.action);
         listamaquina.push(image[1].dataset.action);
+        document.querySelector('.buttonImg').textContent = `Rodada [4] `
   
         caixas.addEventListener('click', clickHandler);
       }
@@ -105,6 +109,7 @@ function jogo() {
         listamaquina.push(image[3].dataset.action);
         listamaquina.push(image[1].dataset.action);
         listamaquina.push(image[2].dataset.action);
+        document.querySelector('.buttonImg').textContent = `Rodada [5] `
   
         caixas.addEventListener('click', clickHandler);
       }
@@ -128,6 +133,7 @@ function jogo() {
         listamaquina.push(image[1].dataset.action);
         listamaquina.push(image[2].dataset.action);
         listamaquina.push(image[0].dataset.action);
+        document.querySelector('.buttonImg').textContent = `Rodada [6] `
   
         caixas.addEventListener('click', clickHandler);
       }
@@ -153,6 +159,7 @@ function jogo() {
         listamaquina.push(image[2].dataset.action);
         listamaquina.push(image[0].dataset.action);
         listamaquina.push(image[0].dataset.action);
+        document.querySelector('.buttonImg').textContent = `Rodada [7] `
   
         caixas.addEventListener('click', clickHandler);
       }
@@ -181,6 +188,7 @@ function jogo() {
         listamaquina.push(image[0].dataset.action);
         listamaquina.push(image[0].dataset.action);
         listamaquina.push(image[3].dataset.action);
+        document.querySelector('.buttonImg').textContent = `Rodada [8] `
   
         caixas.addEventListener('click', clickHandler);
       }
@@ -212,6 +220,7 @@ function jogo() {
         listamaquina.push(image[0].dataset.action);
         listamaquina.push(image[3].dataset.action);
         listamaquina.push(image[2].dataset.action);
+        document.querySelector('.buttonImg').textContent = `Rodada [9] `
         
   
         caixas.addEventListener('click', clickHandler);
@@ -249,6 +258,7 @@ function jogo() {
         listamaquina.push(image[3].dataset.action);
         listamaquina.push(image[2].dataset.action);
         listamaquina.push(image[2].dataset.action);
+        document.querySelector('.buttonImg').textContent = `Rodada [10] `
   
         caixas.addEventListener('click', clickHandler);
       }
@@ -287,6 +297,8 @@ function jogo() {
         listamaquina.push(image[2].dataset.action);
         listamaquina.push(image[2].dataset.action);
         listamaquina.push(image[1].dataset.action);
+
+        document.querySelector('.buttonImg').textContent = `Rodada [11] `
         
   
         caixas.addEventListener('click', clickHandler);
