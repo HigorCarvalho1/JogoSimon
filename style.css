@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    height: 100vh;
+    background: -webkit-linear-gradient(#dddde2, #3fdaf9);
+}
+
+.fundo{
+    display: none;
+}
+.pagina{
+    height: 100%;
+    background: -webkit-linear-gradient(#dddde2, #3fdaf9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.light{
+    position: relative;
+    z-index: 2;
+    opacity: 1;
+    transform: scale(1.1);
+    filter: contrast(200%);
+    
+}
+.pagina h1{
+    text-decoration: underline double;
+    background: -webkit-linear-gradient(#01010c, #0415d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+
+    margin-top: -15rem;
+    margin-bottom: 15rem;
+
+    font-size: 5rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 1.5s steps(13) infinite alternate, 
+    blink 800ms steps(13) infinite normal;  
+}
+
+@keyframes typewriter {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 12%;
+    }
+
+}
+@keyframes typewriters {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 180%;
+    }
+
+}
+@keyframes blink {
+    from {
+        border-color: #1E56A0;
+    }
+    to {
+        border-color: transparent;
+    }
+}
+.primeiracor:hover,
+.segundacor:hover,
+.terceiracor:hover,
+.quartacor:hover{
+    position: relative;
+    z-index: 2;
+    opacity: 1;
+    
+}
+
+main{
+    height: 40rem;
+    width: 40rem;
+}
+
+.caixas{
+    margin-top: -5rem;
+  
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    height: 100%;
+    animation: rotate 2s;
+    animation-delay: .5s;
+    transform: rotate(45deg);
+}
+.primeira, .segunda{
+    display: flex;
+    gap: .5rem;
+    height: 50%;
+    
+}
+.primeiracor,
+.segundacor,
+.terceiracor,
+.quartacor{
+    width: 50%;
+    border: 3px solid black;
+    opacity: .6;
+    transition: .5s;
+    cursor: pointer;
+    
+    
+
+}
+.primeiracor{
+    background-color: blue;
+    filter: drop-shadow(16px 7px 20px  #080e84);
+    --startY: -65%;
+    animation: nenhum2 .5s;
+}
+.segundacor{
+    background: red;
+    filter: drop-shadow(16px 7px 20px #84080a);
+    --startX: 65%;
+    animation: nenhum .5s;
+}
+.terceiracor{
+    background: green;
+    filter: drop-shadow(16px 7px 20px #08840a);
+    --startX: -65%;
+    animation: nenhum .5s;
+}
+.quartacor{
+    background: yellow;
+    filter: drop-shadow(16px 7px 20px #e9e512); 
+    --startY: 65%;
+    animation:  nenhum2 .5s ;
+}
+main .caixabutton{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13rem;
+    background: transparent;
+}
+.button{
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+    
+    
+}
+.button img{
+    height: 10rem;
+    width: 10rem;
+    cursor: pointer;
+    transition: .5s;
+   
+    
+    
+   
+}
+.button img:hover{
+    transform: scale(1.1);
+}
+.buttonImg{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.click{
+    opacity: .2;
+}
+.imagem{
+    position: fixed;
+    z-index: 3;
+}
+.imagem2{
+    border-radius: 1rem;
+    box-shadow: 0px 2.0rem 5.0rem 0px rgba(0, 0, 0, 0.80);
+}
+main.fundo2{
+    opacity: .5;
+}
+@keyframes nenhum{
+    0%{
+        
+        transform: translateX(var(--startX));
+    }
+       100%{
+          
+       };
+    
+}
+@keyframes nenhum2{
+    0%{
+        
+        transform: translateY(var(--startY));
+    }
+       100%{
+
+       }
+    
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(45deg);
+    }
+    100%{
+        transform: rotate(405deg);
+    }
+}
+@media ((max-width: 1700px)){
+    main{
+        height: 27rem;
+        width: 27rem;
+    }
+    .pagina h1{
+        font-size: 3rem;
+        margin-top: -10rem;
+        margin-bottom: 12rem;
+    }
+    main .caixabutton{
+        margin-top: 7rem;
+    }
+    .button img{
+        height: 7rem;
+        width: 7rem;
+        cursor: pointer;
+        transition: .5s; 
+    }
+
+
+}
+@media ((max-width: 1200px)){
+    @keyframes typewriter {
+        from {
+            width: 0%;
+        }
+        to {
+            width: 30%;
+        }
+    
+    }
+}
+
+
