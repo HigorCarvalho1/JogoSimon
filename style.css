@@ -66,15 +66,7 @@ body{
     }
 
 }
-@keyframes typewriters {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 180%;
-    }
 
-}
 @keyframes blink {
     from {
         border-color: #1E56A0;
@@ -255,7 +247,15 @@ main.fundo2{
 
 }
 @media ((max-width: 1200px)){
+    @keyframes typewriter {
+        from {
+            width: 0%;
+        }
+        to {
+            width: 35%;
+        }
     
+    }
 }
 
 
