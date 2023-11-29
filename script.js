@@ -35,6 +35,8 @@ function jogo() {
         document.querySelector('.nome').textContent = `SIMON`
         document.querySelector('.nome').style.animation = "typewriter 1.5s steps(13) infinite alternate, blink 800ms steps(13) infinite normal"
         document.querySelector('.buttonImg').textContent = `INICIAR RODADA [${sequencia + 1}] `
+        
+        caixas.addEventListener('click', clickHandler);
       }
   
       if (sequencia === 1) {
@@ -322,7 +324,6 @@ function jogo() {
             
           } else {
             console.log('melhorou');
-            returnColor()
             document.querySelector('.buttonImg').textContent = "Tente Novamente "
             sequencia--
           }
